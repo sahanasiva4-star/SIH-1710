@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 09.06.26
+## Register Number: 212225230236
+## Name: Sahana S
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,73 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+~~~
+What it should show:
+Passenger opening the app
+Station map with platforms and facilities
+Search bar ("Find Platform 5", "Restroom", etc.)
+GPS-like navigation inside station
 
+Use a System Architecture Diagram showing data flow:
+Passenger
+    ↓
+Mobile App / Kiosk
+    ↓
+Navigation Engine
+    ↓
+Station Database
+    ↓
+Real-Time Updates Server
+    ↓
+Platforms | Ticket Counter | Food Court | Restroom
+~~~
 
 ## Proposed Solution / Architecture Diagram
+<img width="1360" height="860" alt="image" src="https://github.com/user-attachments/assets/02baeacf-fc20-4dca-9acf-0d5b6d5a1ebd" />
+<img width="467" height="683" alt="image" src="https://github.com/user-attachments/assets/82fe2d87-69a3-4f89-89d0-1c807ac7f0db" />
 
 
 ## Use Cases
-
+~~~
+Use Cases to Display:
+Find Platform
+Locate Restroom
+Find Food Court
+Find Waiting Hall
+Voice Navigation
+Emergency Exit Guidance
+~~~
 
 ## Technology Stack
+~~~
+Frontend
+React.js
+Tailwind CSS
 
+Backend
+Node.js
+Express.js
+
+Database
+MongoDB
+
+Maps
+Three.js / Mapbox
+
+AI Voice
+Speech Recognition API
+
+Cloud
+Firebase / AWS
+~~~
 
 ## Dependencies
-
+~~~
+Dependencies Section Can Show:
+Railway Database API
+GPS/Indoor Positioning
+Speech-to-Text API
+Map Engine
+Firebase Notifications
+Authentication Service
+~~~
